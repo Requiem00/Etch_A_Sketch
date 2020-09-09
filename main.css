@@ -1,0 +1,31 @@
+#canvas {
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+.container {
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    width: 56.25px;
+    height: 35px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+#reset {
+    padding: 14px 28px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    outline: 0;
+}
